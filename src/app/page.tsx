@@ -321,32 +321,35 @@ export default function Home() {
 
 
 
-<section id="project" className="my-10 py-20 px-4 sm:px-6 lg:px-8 bg-white dark:bg-gray-900">
-  <div className="max-w-7xl mx-auto">
-    <div className="text-center mb-16">
-      <h2 id="projects" className="text-4xl sm:text-5xl font-bold mb-4">
+<section id="projects" className="relative py-16 sm:py-20 lg:py-28 px-4 sm:px-6 lg:px-8 bg-white dark:bg-gray-900 overflow-hidden mt-10">
+  {/* Decorative elements */}
+  <div className="absolute inset-0 overflow-hidden pointer-events-none">
+    <div className="absolute top-0 left-1/4 w-32 h-32 bg-blue-100 dark:bg-blue-900 rounded-full mix-blend-multiply dark:mix-blend-screen opacity-20 blur-3xl"></div>
+    <div className="absolute bottom-0 right-1/4 w-64 h-64 bg-lime-100 dark:bg-lime-900 rounded-full mix-blend-multiply dark:mix-blend-screen opacity-20 blur-3xl"></div>
+  </div>
+
+  <div className="max-w-7xl mx-auto relative z-10">
+    <div className="text-center mb-16 lg:mb-20">
+      
+      
+      <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-4">
         <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-blue-400 dark:from-lime-400 dark:to-lime-300">
           My Projects
         </span>
       </h2>
-      <p className="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-        Where code meets creativity - explore my technical craftsmanship
+      
+      <p className="text-lg md:text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto leading-relaxed -mb-30">
+        Where <span className="font-medium text-blue-500 dark:text-lime-400">code</span> meets <span className="font-medium text-blue-500 dark:text-lime-400">creativity</span> — explore my technical craftsmanship through these featured works
       </p>
     </div>
 
-    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+    <div className=" w-full  mx-auto">
       <ProjectGrid />
     </div>
 
-    {/* View All Projects Button */}
-    <div className="text-center mt-16">
-      <button className="px-6 py-3 border-2 border-blue-600 dark:border-lime-500 text-blue-600 dark:text-lime-400 font-medium rounded-lg hover:bg-blue-50 dark:hover:bg-gray-800 transition-colors">
-        View All Projects
-      </button>
-    </div>
+
   </div>
 </section>
-
 
 {/* Skills Level Section */}
 <section id="skills" className="py-12 px-4 sm:px-6 lg:px-8">
