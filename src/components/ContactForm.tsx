@@ -46,7 +46,7 @@ const ContactForm = () => {
         let errorData;
         try {
           errorData = await response.json();
-        } catch (jsonError) {
+        } catch {
           throw new Error(`HTTP error! status: ${response.status}`);
         }
         throw new Error(errorData.message || 'Failed to send message');
@@ -76,7 +76,7 @@ const ContactForm = () => {
       <div className="max-w-6xl mx-auto flex flex-col lg:flex-row gap-12 items-center">
         {/* Contact Form Div */}
         <div className="w-full lg:w-1/2 bg-white dark:bg-gray-800 p-8 rounded-xl shadow-lg">
-          <h2 className="text-3xl font-bold mb-6 text-blue-600 dark:text-lime-500">Let's Connect</h2>
+          <h2 className="text-3xl font-bold mb-6 text-blue-600 dark:text-lime-500">Let&apos;s Connect</h2>
           
           {submitStatus && (
             <div className={`mb-6 p-4 rounded-lg ${
@@ -161,8 +161,8 @@ const ContactForm = () => {
             </svg>
             
             <blockquote className="text-xl sm:text-2xl font-medium text-gray-800 dark:text-gray-200 mb-4">
-              "The web is a canvas, and code is the brush.  
-              Let's paint something extraordinary together."
+              &quot;The web is a canvas, and code is the brush.  
+              Let&apos;s paint something extraordinary together.&quot;
             </blockquote>
             
             <div className="flex items-center justify-center lg:justify-start space-x-3">

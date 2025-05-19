@@ -6,7 +6,6 @@ import { AnimatedTestimonials } from "@/components/ui/animated-testimonials";
 import ContactForm from "@/components/ContactForm";
 import  Link  from "next/link";
 import { cn } from "@/lib/utils";
-import { Button } from "@/components/ui/button";
 import ProjectGrid from "@/components/ProjectGrid";
 
 
@@ -110,7 +109,7 @@ export default function Home() {
       <Link href="#contact" >
       <button className="px-5 py-3 border-2 border-blue-600 dark:border-lime-500 text-blue-600 dark:text-lime-400 font-medium rounded-xl hover:bg-blue-50/50 dark:hover:bg-gray-800/50 transition-all duration-300 transform hover:-translate-y-1">
         <span className="flex items-center gap-2">
-          Let's discuss Business
+          Let&apos;s discuss Business
           <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
           </svg>
@@ -238,15 +237,15 @@ export default function Home() {
         
         <div className="prose dark:prose-invert max-w-none text-gray-600 dark:text-gray-300">
         <p className="text-lg sm:text-xl mb-6">
-          Hey there! I’m <span className="font-semibold text-blue-700 dark:text-lime-400">PeleDev</span> 
-          — real name Samson Akoto, but most folks know me as Pele. I'm a frontend developer with 
+          Hey there! I&apos;m <span className="font-semibold text-blue-700 dark:text-lime-400">PeleDev</span> 
+          — real name Samson Akoto, but most folks know me as Pele. I&apos;m a frontend developer with 
           a love for clean design, smooth animations, and code that just works. I blend creativity 
           and tech to craft sleek, user-friendly experiences that look great and feel even better.
           <br /><br />
           From crafting logos in Photoshop to bringing ideas to life with Rive animations 
-          and even sprinkling in some Python when needed, I don’t just build interfaces — 
-          I create digital stories. Whether it's designing pixel-perfect UIs, building brand 
-          identities, or adding that perfect motion to your app, I’m all about making projects 
+          and even sprinkling in some Python when needed, I don&apos;t just build interfaces — 
+          I create digital stories. Whether it&apos;s designing pixel-perfect UIs, building brand 
+          identities, or adding that perfect motion to your app, I&apos;m all about making projects 
           shine at the crossroads of design and development.
         </p>
 
