@@ -16,7 +16,7 @@ const projects: Project[] = [
     description: 'High-performance interactive website with seamless animations and optimized load times.',
     iconColor: 'blue',
     technologies: ['Next.js', 'Tailwind', 'Stripe', 'Framer Motion'],
-    link: 'https://pin.it/26FYxvNcY',
+    link: 'https://solveralabhq.org',
   },
   {
     title: 'Brand Identity',
