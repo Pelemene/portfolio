@@ -306,7 +306,7 @@ export default function Home() {
               Download CV
             </button>
             </Link>
-           <Link href="#project" >
+           <Link href="#projects" >
             <button className="px-6 py-3 border-2 border-blue-600 dark:border-lime-600 text-blue-600 dark:text-lime-600 rounded-lg hover:bg-blue-50 dark:hover:bg-gray-800 transition-colors">
               View Projects
             </button>
